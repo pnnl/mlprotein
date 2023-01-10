@@ -1,4 +1,4 @@
-# mlprotein
+# PyMol Pipeline
 
 
 Note: When inspecting pml files, make sure to open in a code editor, such as Atom. Your computer will want to open the pml files within PyMol, which will automatically run the script. Seeing as scripts add to or delete things, you don’t want to run them accidently.
@@ -9,7 +9,7 @@ At the beginning of every run, the folder “train” and “test” and all con
 
 It’s important to update the current example input file names to the real file names. Each step will use the output file of the previous step.
 
-1. get\_clusters\_from\_pdb.pml
+# 1. get\_clusters\_from\_pdb.pml
 
 Create initial list of metals with resi, resn and chain
 
@@ -22,7 +22,7 @@ Current input files (update): fe\_small\_example.txt, fes\_small\_example.txt, f
 - Then the script loops through the list of metals and select resn within 3.0 radius of each metal. For each metal, it uses the full\_list of items within a 3.0 radius (line 71), to classify as a Fe, Fes, or Reiske.
 - The script saves the protein, resi, resn, chain, and resn\_list within 3.0 radius to a csv file
 
-1. Run the webscrapper\_current.py in python
+# 2. Run the webscrapper\_current.py in python
 
 Confirm classifications with MolQL
 
@@ -44,7 +44,7 @@ pip install pandas
 pip install webdriver-manager
 
 
-1. create\_png\_metal\_by\_protein.pml
+# 3. create\_png\_metal\_by\_protein.pml
 
 Create the images for the neural network training and testing
 
@@ -63,15 +63,15 @@ Current input files (update): test\_record\_images\_molql\_example\_input.csv (a
 
 
 
-1. create\_png\_metal\_from\_excel.pml.
+# 4. create\_png\_metal\_from\_excel.pml.
 
 Using the output excel file, you can re-create the same images with the same rotations, but with the metal hidden
 
 Current input files (update): record\_images\_metal\_hidden\_False\_example\_input.csv (update at line 20)
 
-1. Run a modification of https://pytorch.org/tutorials/beginner/finetuning\_torchvision\_models\_tutorial.html
+# 5. Run a modification of https://pytorch.org/tutorials/beginner/finetuning\_torchvision\_models\_tutorial.html
 
-1. create\_aa\_pymol.pml  
+# 6. create\_aa\_pymol.pml  
 
 Creates the amino acid image. It works the same way as the rotations for metals, and just needs to be run in PyMol.
 
