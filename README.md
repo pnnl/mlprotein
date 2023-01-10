@@ -35,13 +35,16 @@ Current input files (update): record\_images\_example\_input.csv (update at line
 
 <https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#activating-an-environment>
 
-conda create -n webscrape\_env python=3.7
+```
+conda create -n [webscrape\_env] python=3.7
 
 pip install selenium==4.1.1
 
 pip install pandas
 
-pip install webdriver-manager
+pip install webdriver-manager 
+```
+
 
 
 # 3. create\_png\_metal\_by\_protein.pml
@@ -53,7 +56,7 @@ Current input files (update): test\_record\_images\_molql\_example\_input.csv (a
 - Set number of images per folder at line 13 and 14
 - Indicate if you want to hide the metal at line 16
 - This file will use the webscraper output, so update the filename in line 19
-- ` `Make sure the last column, with the proper cluster classification is called “folder2” and that the “protein” column is in the third column down in the input file
+- Make sure the last column, with the proper cluster classification is called “folder2” and that the “protein” column is in the third column down in the input file
 - The script will divide proteins per metal into test and train sets and randomize the order of the proteins
 - The script creates a dictionary “protein\_dict” that keeps track of how many unique resi there are per protein, and which one you recently used.
 - The script cycles through each protein and uses the next possible resi. Restart at the original resi once all resi per protein have been used.  
@@ -69,7 +72,8 @@ Using the output excel file, you can re-create the same images with the same rot
 
 Current input files (update): record\_images\_metal\_hidden\_False\_example\_input.csv (update at line 20)
 
-# 5. Run a modification of https://pytorch.org/tutorials/beginner/finetuning\_torchvision\_models\_tutorial.html
+# 5. Run a modification of below script:
+https://pytorch.org/tutorials/beginner/finetuning\_torchvision\_models\_tutorial.html
 
 # 6. create\_aa\_pymol.pml  
 
