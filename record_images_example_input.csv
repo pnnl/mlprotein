@@ -1,0 +1,27 @@
+,protein,resi,resn,chain,resn_2_5_radius,resn_3_radius,resn_1_5_radius,cys_num,his_num,fes_num,fe_num,fe2_num,metal_atom_names,folder
+0,name:1A8E,339,FE,A,"['HIS', 'TYR', 'ASP', 'TYR', 'FE', 'CO3']","['HIS', 'TYR', 'ASP', 'TYR', 'FE', 'CO3']",['FE'],0,1,0,1,0,['FE'],does_not_qualify
+1,name:1A8F,339,FE,A,"['HIS', 'TYR', 'ASP', 'TYR', 'FE', 'CO3']","['HIS', 'TYR', 'ASP', 'TYR', 'FE', 'CO3']",['FE'],0,1,0,1,0,['FE'],does_not_qualify
+2,name:1AHJ,208,FE,G,"['FE', 'SER', 'CYS', 'CYS', 'CYS']","['FE', 'SER', 'CYS', 'CYS', 'CYS']",['FE'],3,0,0,1,0,['FE'],does_not_qualify
+3,name:1AHJ,208,FE,A,"['FE', 'SER', 'CYS', 'CYS', 'CYS']","['FE', 'SER', 'CYS', 'CYS', 'CYS']",['FE'],3,0,0,1,0,['FE'],does_not_qualify
+4,name:1AHJ,208,FE,E,"['CYS', 'SER', 'CYS', 'CYS', 'FE']","['CYS', 'SER', 'CYS', 'CYS', 'FE']",['FE'],3,0,0,1,0,['FE'],does_not_qualify
+5,name:1AHJ,208,FE,C,"['SER', 'FE', 'CYS', 'CYS', 'CYS']","['SER', 'FE', 'CYS', 'CYS', 'CYS']",['FE'],3,0,0,1,0,['FE'],does_not_qualify
+6,name:1A70,1602,FES,A,"['CYS', 'CYS', 'CYS', 'FES', 'CYS']","['CYS', 'CYS', 'CYS', 'FES', 'CYS']",['FES'],4,0,1,0,0,"['S1', 'S2', 'FE1', 'FE2']",FES
+7,name:1AWD,98,FES,A,"['FES', 'CYS', 'CYS', 'CYS', 'CYS']","['FES', 'CYS', 'CYS', 'CYS', 'CYS']",['FES'],4,0,1,0,0,"['S1', 'S2', 'FE1', 'FE2']",FES
+8,name:1AYF,109,FES,A,"['FES', 'CYS', 'CYS', 'CYS', 'CYS']","['FES', 'CYS', 'CYS', 'CYS', 'CYS']",['FES'],4,0,1,0,0,"['S1', 'S2', 'FE1', 'FE2']",FES
+9,name:1AYF,109,FES,B,"['CYS', 'CYS', 'FES', 'CYS', 'CYS']","['CYS', 'CYS', 'FES', 'CYS', 'CYS']",['FES'],4,0,1,0,0,"['S1', 'S2', 'FE1', 'FE2']",FES
+10,name:1AFR,559,FE2,C,"['FE2', 'GLU', 'HIS', 'GLU', 'GLU']","['FE2', 'GLU', 'HIS', 'GLU', 'GLU']",['FE2'],0,1,0,0,1,['FE'],does_not_qualify
+11,name:1AFR,750,FE2,E,"['GLU', 'FE2', 'GLU', 'GLU']","['FE2', 'GLU', 'GLU', 'HIS', 'GLU']",['FE2'],0,1,0,0,1,['FE'],does_not_qualify
+12,name:1AFR,648,FE2,D,"['GLU', 'GLU', 'FE2', 'HIS', 'GLU']","['GLU', 'GLU', 'FE2', 'HIS', 'GLU']",['FE2'],0,1,0,0,1,['FE'],does_not_qualify
+13,name:1AFR,558,FE2,C,"['GLU', 'FE2', 'GLU', 'GLU', 'HIS']","['GLU', 'FE2', 'GLU', 'GLU', 'HIS']",['FE2'],0,1,0,0,1,['FE'],does_not_qualify
+14,name:1AFR,838,FE2,F,"['GLU', 'FE2', 'HIS', 'GLU', 'GLU']","['GLU', 'FE2', 'HIS', 'GLU', 'GLU']",['FE2'],0,1,0,0,1,['FE'],does_not_qualify
+15,name:1AFR,365,FE2,A,"['HIS', 'GLU', 'GLU', 'FE2', 'GLU']","['HIS', 'GLU', 'GLU', 'FE2', 'GLU']",['FE2'],0,1,0,0,1,['FE'],does_not_qualify
+16,name:1AFR,455,FE2,B,"['HIS', 'GLU', 'GLU', 'FE2']","['HIS', 'GLU', 'GLU', 'GLU', 'FE2']",['FE2'],0,1,0,0,1,['FE'],does_not_qualify
+17,name:1AFR,364,FE2,A,"['GLU', 'GLU', 'HIS', 'FE2', 'GLU']","['GLU', 'GLU', 'HIS', 'FE2', 'GLU']",['FE2'],0,1,0,0,1,['FE'],does_not_qualify
+18,name:1AFR,649,FE2,D,"['GLU', 'GLU', 'FE2', 'HIS', 'GLU']","['GLU', 'GLU', 'FE2', 'HIS', 'HOH', 'GLU']",['FE2'],0,1,0,0,1,['FE'],does_not_qualify
+19,name:1AFR,751,FE2,E,"['GLU', 'GLU', 'HIS', 'FE2']","['GLU', 'HOH', 'GLU', 'FE2', 'GLU', 'HIS']",['FE2'],0,1,0,0,1,['FE'],does_not_qualify
+20,name:1AFR,454,FE2,B,"['GLU', 'HIS', 'GLU', 'GLU', 'FE2']","['GLU', 'HIS', 'GLU', 'GLU', 'FE2']",['FE2'],0,1,0,0,1,['FE'],does_not_qualify
+21,name:1AFR,839,FE2,F,"['GLU', 'GLU', 'HIS', 'GLU', 'FE2']","['GLU', 'GLU', 'HIS', 'HOH', 'GLU', 'FE2']",['FE2'],0,1,0,0,1,['FE'],does_not_qualify
+22,name:1AIG,308,FE2,O,"['FE2', 'HIS', 'HIS', 'HIS', 'GLU', 'HIS']","['FE2', 'HIS', 'HIS', 'HIS', 'GLU', 'HIS']",['FE2'],0,4,0,0,1,['FE'],does_not_qualify
+23,name:1AIG,308,FE2,M,"['HIS', 'FE2', 'GLU', 'HIS', 'HIS', 'HIS']","['HIS', 'FE2', 'GLU', 'HIS', 'HIS', 'HIS']",['FE2'],0,4,0,0,1,['FE'],does_not_qualify
+24,name:1AIJ,308,FE2,M,"['HIS', 'FE2', 'GLU', 'HIS', 'HIS', 'HIS']","['HIS', 'FE2', 'GLU', 'HIS', 'HIS', 'HIS']",['FE2'],0,4,0,0,1,['FE'],does_not_qualify
+25,name:1AIJ,308,FE2,S,"['HIS', 'HIS', 'FE2', 'HIS', 'GLU', 'HIS']","['HIS', 'HIS', 'FE2', 'HIS', 'GLU', 'HIS']",['FE2'],0,4,0,0,1,['FE'],does_not_qualify
