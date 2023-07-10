@@ -56,6 +56,9 @@ Current input files (update): record\_images\_example\_input.csv (update at line
 ```
 conda create -n [webscrape\_env] python=3.7
 
+
+conda activate [webscrape\_env]
+
 pip install selenium==4.1.1
 
 pip install pandas
